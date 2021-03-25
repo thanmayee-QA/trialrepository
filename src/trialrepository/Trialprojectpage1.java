@@ -13,7 +13,8 @@ public class Trialprojectpage1 {
 		driver.get("http://www.practiceselenium.com/practice-form.html");
 	      driver.findElement(By.xpath("//*[@text()='Switch Commands']"));
 	      System.out.println(driver.findElement(By.xpath("//*[@text()='Wait Commands']")).getText());
-		
+	      System.out.println(driver.findElement(By.xpath("//*[@text()='Wait Commands']")).getText());
+			
 	}
 
 }
